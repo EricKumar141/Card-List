@@ -1,0 +1,7 @@
+<div class="card" (click)="setCardDetails()">
+  <div class="background" style="background-color: {{ cards.color }}"></div>
+  <h3>
+    {{ cards.name }}
+  </h3>
+  <p>{{ cards.description | shortCard }}</p>
+</div>

@@ -1,0 +1,12 @@
+<div class="left">
+  <h1>List</h1>
+  <app-card
+    *ngFor="let card of cardList"
+    [cards]="card"
+    (cardDetails)="setCurrCard($event)"
+  >
+  </app-card>
+</div>
+<div class="right">
+  <app-card-details [currCards]="currCard"></app-card-details>
+</div>

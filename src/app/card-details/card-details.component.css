@@ -1,0 +1,12 @@
+button {
+  background-color: rgb(28, 86, 194);
+  color: white;
+  border: none;
+  border-radius: 0.2em;
+  float: right;
+  padding: 0.5em;
+  width: 5em;
+}
+button:active {
+  transform: translateY(+0.15em);
+}
