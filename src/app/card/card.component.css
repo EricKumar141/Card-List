@@ -16,5 +16,5 @@
   background-color: rgb(160, 160, 160);
 }
 .card ~ .background {
-  transform: translateX(0.2em);
+  transform: translateX(+0.2em);
 }
